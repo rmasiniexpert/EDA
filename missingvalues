@@ -43,3 +43,7 @@ percentage.plot <- missing.values %>%
        labs(title = "Percentage of missing values",
             x = 'Variable', y = "% of missing values")
 percentage.plot
+
+# After that in tidy package we can use:
+# drop_na(x, x$col)  or  replace_na(x, list( col = operation), col)
+
